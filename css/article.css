@@ -1,0 +1,505 @@
+@charset "utf-8";
+
+
+article{
+    margin-top: 400px;
+    margin-left: 400px;
+}
+
+article>.mobile{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+article>.mobile>h2{
+    font-size: 24px;
+    font-family: 'Noto Sans CJK KR Black';
+    letter-spacing: -1.2px;
+}
+
+article>.mobile>ul{
+    display: block;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+article>.mobile>ul>li:nth-child(1){
+    width: 202px;
+    height: 240px;
+    margin-top: 30px;
+    text-indent: -9999px;
+    border-radius: 5px;
+}
+
+article>.mobile>.seven{
+    position: relative;
+    width: 202px;
+    height: 260px;
+    margin-left: -160px;
+}
+
+article>.mobile>.seven>li:nth-child(1){
+    background-image: url(../images/main_list_202x240.jpg);
+    box-shadow: 0px -80px 50px rgba(0, 0, 0, 0.897) inset;
+}
+
+article>.mobile>.seven>li:nth-child(2){
+    position: absolute;
+    left: -13px;
+    bottom: 10px;
+    width: 202px;
+    height: 60px;
+    text-indent: -9999px;
+    background-image: url(../images/sk2_bi.png);
+    background-position: 30px 13px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+article>.mobile>.seven>.box{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+}
+
+article>.mobile>.seven>.box>.img{
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-indent: -9999px;
+    background-image: url(../images/1_SK2_iCON_iOS_1024x1024.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+article>.mobile>.seven>.box>p:nth-child(2){
+    display: block;
+    margin-left: 15px;
+    padding-top: 5px;
+    width: 80px;
+    height: 40px;
+    line-height: 20px;
+}
+
+article>.mobile>.seven>.box>.img>a{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+
+/* 
+
+\ */
+
+
+article>.mobile>.base{
+    position: relative;
+    width: 202px;
+    height: 260px;
+}
+
+article>.mobile>.base>li:nth-child(1){
+    background-image: url(../images/list.jpg);
+    box-shadow: 0px -80px 50px rgba(0, 0, 0, 0.897) inset;
+}
+
+article>.mobile>.base>li:nth-child(2){
+    position: absolute;
+    left: -13px;
+    bottom: 5px;
+    width: 202px;
+    height: 70px;
+    text-indent: -9999px;
+    background-image: url(../images/ma9bi_kr.png);
+    background-position: 30px 13px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+article>.mobile>.base>.box{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+}
+
+article>.mobile>.base>.box>.img{
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-indent: -9999px;
+    background-image: url(../images/Android_Market_512.png);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+article>.mobile>.base>.box>p:nth-child(2){
+    display: block;
+    margin-left: 15px;
+    padding-top: 5px;
+    width: 80px;
+    height: 40px;
+    line-height: 20px;
+}
+
+article>.mobile>.base>.box>.img>a{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+/*  */
+
+article>.mobile>.stone{
+    position: relative;
+    width: 202px;
+    height: 260px;
+}
+
+article>.mobile>.stone>li:nth-child(1){
+    background-image: url(../images/s.jpg);
+    box-shadow: 0px -80px 50px rgba(0, 0, 0, 0.897) inset;
+}
+
+article>.mobile>.stone>li:nth-child(2){
+    position: absolute;
+    left: -13px;
+    bottom: 0px;
+    width: 202px;
+    height: 60px;
+    text-indent: -9999px;
+    background-image: url(../images/stonemmogb.png);
+    background-position: 30px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+article>.mobile>.stone>.box{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+}
+
+article>.mobile>.stone>.box>.img{
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-indent: -9999px;
+    background-image: url(../images/clx21616479253993.png);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+article>.mobile>.stone>.box>p:nth-child(2){
+    display: block;
+    margin-left: 15px;
+    padding-top: 5px;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+}
+
+article>.mobile>.stone>.box>.img>a{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+/*  */
+
+article>.mobile>.still{
+    position: relative;
+    width: 202px;
+    height: 260px;
+}
+
+article>.mobile>.still>li:nth-child(1){
+    background-image: url(../images/survival.jpg);
+    box-shadow: 0px -80px 50px rgba(0, 0, 0, 0.897) inset;
+}
+
+article>.mobile>.still>li:nth-child(2){
+    position: absolute;
+    left: -13px;
+    bottom: 0px;
+    width: 202px;
+    height: 60px;
+    text-indent: -9999px;
+    background-image: url(../images/survival.png);
+    background-position: 30px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+article>.mobile>.still>.box{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+}
+
+article>.mobile>.still>.box>.img{
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-indent: -9999px;
+    background-image: url(../images/180_191022_A3_512.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+article>.mobile>.still>.box>p:nth-child(2){
+    display: block;
+    margin-left: 15px;
+    padding-top: 5px;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+}
+
+article>.mobile>.still>.box>.img>a{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+/* */
+
+article>.mobile>.big{
+    position: relative;
+    width: 202px;
+    height: 260px;
+    margin-top: 100px;
+}
+
+article>.mobile>.big>li:nth-child(1){
+    background-image: url(../images/nanakr.jpg);
+    box-shadow: 0px -80px 50px rgba(0, 0, 0, 0.897) inset;
+}
+
+article>.mobile>.big>li:nth-child(2){
+    position: absolute;
+    left: -13px;
+    bottom: -5px;
+    width: 202px;
+    height: 60px;
+    text-indent: -9999px;
+    background-image: url(../images/nanakr.png);
+    background-position: 30px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+article>.mobile>.big>.box{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+}
+
+article>.mobile>.big>.box>.img{
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-indent: -9999px;
+    background-image: url(../images/180_aos_512_ko.png);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+article>.mobile>.big>.box>p:nth-child(2){
+    display: block;
+    margin-left: 15px;
+    padding-top: 5px;
+    width: 80px;
+    height: 40px;
+    line-height: 20px;
+}
+
+article>.mobile>.big>.box>.img>a{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+/*  */
+
+article>.mobile>.rev{
+    position: relative;
+    width: 202px;
+    height: 260px;
+    margin-top: 100px;
+}
+
+article>.mobile>.rev>li:nth-child(1){
+    background-image: url(../images/lineageII.jpg);
+    box-shadow: 0px -80px 50px rgba(0, 0, 0, 0.897) inset;
+}
+
+article>.mobile>.rev>li:nth-child(2){
+    position: absolute;
+    left: -10px;
+    bottom: -5px;
+    width: 202px;
+    height: 60px;
+    text-indent: -9999px;
+    background-image: url(../images/lineageII.png);
+    background-position: 30px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+article>.mobile>.rev>.box{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+}
+
+article>.mobile>.rev>.box>.img{
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-indent: -9999px;
+    background-image: url(../images/180_AOS_Market_512.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+article>.mobile>.rev>.box>p:nth-child(2){
+    display: block;
+    margin-left: 15px;
+    padding-top: 5px;
+    width: 100px;
+    height: 40px;
+    line-height: 20px;
+}
+
+article>.mobile>.rev>.box>.img>a{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+/*  */
+
+article>.mobile>.bts{
+    position: relative;
+    width: 202px;
+    height: 260px;
+    margin-top: 100px;
+}
+
+article>.mobile>.bts>li:nth-child(1){
+    background-image: url(../images/btsw.jpg);
+    box-shadow: 0px -80px 50px rgba(0, 0, 0, 0.897) inset;
+}
+
+article>.mobile>.bts>li:nth-child(2){
+    position: absolute;
+    left: -13px;
+    bottom: 10px;
+    width: 202px;
+    height: 60px;
+    text-indent: -9999px;
+    background-image: url(../images/btsw.png);
+    background-position: 30px 13px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+article>.mobile>.bts>.box{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+}
+
+article>.mobile>.bts>.box>.img{
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-indent: -9999px;
+    background-image: url(../images/180_AOS_512.png);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+article>.mobile>.bts>.box>p:nth-child(2){
+    display: block;
+    margin-left: 15px;
+    padding-top: 5px;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+}
+
+article>.mobile>.bts>.box>.img>a{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+/*  */
+
+article>.mobile>.soul{
+    position: relative;
+    width: 202px;
+    height: 260px;
+    margin-top: 100px;
+}
+
+article>.mobile>.soul>li:nth-child(1){
+    background-image: url(../images/bnsmkr.jpg);
+    box-shadow: 0px -80px 50px rgba(0, 0, 0, 0.897) inset;
+}
+
+article>.mobile>.soul>li:nth-child(2){
+    position: absolute;
+    left: -13px;
+    bottom: 2px;
+    width: 202px;
+    height: 60px;
+    text-indent: -9999px;
+    background-image: url(../images/bnsmkr.png);
+    background-position: 30px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+article>.mobile>.soul>.box{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+}
+
+article>.mobile>.soul>.box>.img{
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-indent: -9999px;
+    background-image: url(../images/180_AOS_Market_512.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+article>.mobile>.soul>.box>p:nth-child(2){
+    display: block;
+    margin-left: 15px;
+    padding-top: 5px;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+}
+
+article>.mobile>.soul>.box>.img>a{
+    display: block;
+    width: 40px;
+    height: 40px;
+}

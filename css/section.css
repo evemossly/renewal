@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+section{
+    height: 1300px;
+}
+
+section>.slides{
+    position: relative;
+}
+
+section>.slides>li{
+    position: absolute;
+    left: 0;
+    top: -23px;
+    width: 1900px;
+    height: 430px;
+    text-indent: -9999px;
+}
+
+section>.slides>li:nth-child(1){
+    background-image: url(../images/210128_sk2_branding.jpg);
+    background-position: -350px 0;
+}
+
+section>.slides>li:nth-child(2){
+    background-image: url(../images/md_enn.jpg);
+    background-position: -350px 0;
+}
+
+section>.slides>li:nth-child(3){
+    background-image: url(../images/raven_6th.jpg);
+    background-position: -350px 0;
+}
+
+section>.slides>li:nth-child(4){
+    background-image: url(../images/210331_2600x430.jpg);
+    background-position: -350px 0;
+}
+
+section>.slides>li:nth-child(5){
+    background-image: url(../images/WINJOYPLUS_Netmarble_MainBigBanner.jpg);
+    background-position: -350px 0;
+}
